@@ -1,10 +1,11 @@
 {
-  "name": "todo-list",
+  "name": "to_do_list",
   "version": "1.0.0",
   "description": "1.  'npm init' to generate a 'package.json' file. 2.  'npm install webpack webpack-cli --save-dev' to install webpack. 3.  create a 'webpack.config.js' 4.  'npm install --save-dev html-webpack-plugin' 5.  'npm install --save-dev style-loader css-loader'",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx webpack --mode development --watch"
   },
   "keywords": [],
   "author": "",
